@@ -1,5 +1,7 @@
 package com.Google;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -21,6 +23,8 @@ public class Google_Login {
 
 	@Test 
 	public void test1() {
+		
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.navigate().to("http://www.google.com");
 		System.out.println("Google page opened");
 		System.out.println("The title of the page : " + driver.getTitle());
