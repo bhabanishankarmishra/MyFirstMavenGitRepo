@@ -24,7 +24,7 @@ public class Google_Login {
 	@Test 
 	public void test1() {
 		
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 		driver.navigate().to("http://www.google.com");
 		System.out.println("Google page opened");
 		System.out.println("The title of the page : " + driver.getTitle());
