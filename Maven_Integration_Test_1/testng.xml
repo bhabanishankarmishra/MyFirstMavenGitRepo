@@ -1,0 +1,7 @@
+<suite name="Maven_Integration_Test_1">
+ <test name="Google_Login">
+ <classes>
+ <class name="com.Google.Google_Login" />
+ </classes>
+ </test>
+</suite>
