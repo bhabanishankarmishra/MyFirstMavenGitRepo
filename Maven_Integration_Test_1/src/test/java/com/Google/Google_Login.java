@@ -23,10 +23,11 @@ public class Google_Login {
 	}
 
 	@Test 
-	public void test1() {
+	public void test1() throws InterruptedException {
 		
-		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+		//driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 		driver.navigate().to("http://www.google.com");
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("//a[text()='Sign in']")).click();
 		System.out.println("Google page opened");
 		System.out.println("The title of the page : " + driver.getTitle());

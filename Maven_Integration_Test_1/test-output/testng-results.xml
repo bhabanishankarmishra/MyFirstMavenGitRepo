@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44528" started-at="2018-04-04T15:35:55Z" finished-at="2018-04-04T15:36:40Z">
+  <suite name="Default suite" duration-ms="69431" started-at="2018-04-05T09:20:53Z" finished-at="2018-04-05T09:22:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44528" started-at="2018-04-04T15:35:55Z" finished-at="2018-04-04T15:36:40Z">
+    <test name="Default test" duration-ms="69431" started-at="2018-04-05T09:20:53Z" finished-at="2018-04-05T09:22:02Z">
       <class name="com.Google.Google_Login">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Google.Google_Login@343f4d3d]" name="setup" is-config="true" duration-ms="8637" started-at="2018-04-04T15:35:55Z" finished-at="2018-04-04T15:36:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Google.Google_Login@343f4d3d]" name="setup" is-config="true" duration-ms="7301" started-at="2018-04-05T09:20:53Z" finished-at="2018-04-05T09:21:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.Google.Google_Login@343f4d3d]" name="test1" duration-ms="30683" started-at="2018-04-04T15:36:04Z" finished-at="2018-04-04T15:36:35Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.Google.Google_Login@343f4d3d]" name="test1" duration-ms="7231" started-at="2018-04-05T09:21:00Z" finished-at="2018-04-05T09:21:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.Google.Google_Login@343f4d3d]" name="test2" duration-ms="4242" started-at="2018-04-04T15:36:35Z" finished-at="2018-04-04T15:36:39Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.Google.Google_Login@343f4d3d]" name="test2" duration-ms="53895" started-at="2018-04-05T09:21:07Z" finished-at="2018-04-05T09:22:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Google.Google_Login@343f4d3d]" name="tearDown" is-config="true" duration-ms="867" started-at="2018-04-04T15:36:39Z" finished-at="2018-04-04T15:36:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Google.Google_Login@343f4d3d]" name="tearDown" is-config="true" duration-ms="938" started-at="2018-04-05T09:22:01Z" finished-at="2018-04-05T09:22:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
