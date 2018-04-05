@@ -2,6 +2,7 @@ package com.Google;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -26,6 +27,7 @@ public class Google_Login {
 		
 		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 		driver.navigate().to("http://www.google.com");
+		driver.findElement(By.xpath("//a[text()='Sign i']"));
 		System.out.println("Google page opened");
 		System.out.println("The title of the page : " + driver.getTitle());
 	}
