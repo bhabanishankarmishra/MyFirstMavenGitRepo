@@ -27,7 +27,7 @@ public class Google_Login {
 		
 		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 		driver.navigate().to("http://www.google.com");
-		driver.findElement(By.xpath("//a[text()='Sign i']"));
+		driver.findElement(By.xpath("//a[text()='Sign in']")).click();
 		System.out.println("Google page opened");
 		System.out.println("The title of the page : " + driver.getTitle());
 	}
